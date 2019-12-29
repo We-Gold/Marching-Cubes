@@ -56,10 +56,11 @@ void draw(){
   if (abs(diff) >  0.01) { 
     ymag -= diff/4.0; 
   }
-  translate(width/2, height/2);
+  translate(width/2, height);
   rotateX(-ymag); 
   rotateY(-xmag); 
-  translate(0, 0);
+  
+  //rotateZ(0.125*TWO_PI);
   
   for(int i = 0; i<cubes.length; i++){
     for(int j = 0; j<cubes[i].length; j++){
