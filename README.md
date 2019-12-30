@@ -4,7 +4,7 @@ This is demo of the Marching Cubes algorithm in processing with Java. I have mad
 
 If you are interested in learning the algorithm or trying my program, clone the repository and either run the app for your OS, or open the files in Processing.
 
-**Important: this is not the most efficient or useful implementation of this algorithm. There are better ways to do this. This implememtation is simple to understand, making it useful for learning.
+**Important: this is not the most efficient or useful implementation of this algorithm. There are better ways to do this. This implememtation is simple to understand, making it useful for learning.**
 
 # Learning Links
 
