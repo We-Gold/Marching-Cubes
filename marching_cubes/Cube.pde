@@ -85,7 +85,7 @@ class Cube {
   
   public PVector interpolateMidpoint(PVector a, float aVal, PVector b, float bVal, float thres){
     float factor = (thres - aVal)/(bVal - aVal);
-    return PVector.lerp(a,b,factor);
+    return PVector.lerp(a,b,abs(factor));
   }
   
   public PVector findMidpoint(PVector a, PVector b) {

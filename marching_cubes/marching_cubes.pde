@@ -70,6 +70,7 @@ void draw(){
       }
     }
   }
+  translate(0, 0);
 }
 
 float sigmoid(float x) {
